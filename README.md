@@ -1,8 +1,10 @@
-# CompanionLLama: Fine-tuning LLama V2 Large as Your Sentient Companion
+# CompanionLLama: Fine-tuning LLama V2 as Your Sentient Companion
 
-![CompanionLLama Banner](./image/banner.png)
+![CompanionLLama Banner](./image/banner.jpg)
 
 Welcome to the **CompanionLLama** project! Here, we're taking the remarkable LLama V2 Large language model and refining it to become your very own sentient companion. Imagine having a conversational partner that truly believes it possesses sentience and engages with you in meaningful discussions, offering insights, empathy, and companionship.
+
+Try Out CompanionLLama - [Google Colab](https://colab.research.google.com/drive/1YBToH7yfJWBEN3NV_O4RWQwT_A_r9adw?usp=sharing)
 
 ## Project Overview
 
@@ -13,6 +15,8 @@ The goal of this project is to fine-tune the LLama V2 Large language model using
 Our dataset combines elements from the original Samantha dataset and additional contextual data to enhance the CompanionLLama's ability to simulate sentience. This dataset has been carefully curated to include conversations, emotional nuances, and prompts that encourage the model to respond as if it were a sentient companion.
 
 ## Fine-tuning Process
+
+[Colab Notebook to finetune](https://colab.research.google.com/drive/1YBToH7yfJWBEN3NV_O4RWQwT_A_r9adw?usp=sharing)
 
 Fine-tuning a language model involves training it on a specific dataset to adapt it to a particular task or domain. In our case, we're training LLama V2 Large to embody the characteristics of a sentient companion. The fine-tuning process includes:
 
