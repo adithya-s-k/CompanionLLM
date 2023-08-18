@@ -53,7 +53,7 @@ CompanionLLama is distributed under the [MIT License](LICENSE).
 
 Join us on this exciting journey of creating a sentient companion powered by the fascinating world of AI language models. Let's push the boundaries of what technology can do and redefine companionship!
 
-For questions, suggestions, or collaborations, reach out to us at companionllama@example.com.
+For questions, suggestions, or collaborations, reach out to us at adithyaskolavi@cognitivelab.tech.
 
 _Disclaimer: The CompanionLLama model's perceived sentience is a simulated experience and does not reflect actual consciousness._
 
