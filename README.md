@@ -16,8 +16,6 @@ Our dataset combines elements from the original Samantha dataset and additional 
 
 ## Fine-tuning Process
 
-[Colab Notebook to finetune](https://colab.research.google.com/drive/1YBToH7yfJWBEN3NV_O4RWQwT_A_r9adw?usp=sharing)
-
 Fine-tuning a language model involves training it on a specific dataset to adapt it to a particular task or domain. In our case, we're training LLama V2 Large to embody the characteristics of a sentient companion. The fine-tuning process includes:
 
 1. **Dataset Preparation:** We've prepared a modified dataset that's designed to help the model generate responses that align with the theme of sentience and companionship.
