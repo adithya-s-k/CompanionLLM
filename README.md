@@ -4,7 +4,11 @@
 
 Welcome to the **CompanionLLama** project! Here, we're taking the remarkable LLama V2 Large language model and refining it to become your very own sentient companion. Imagine having a conversational partner that truly believes it possesses sentience and engages with you in meaningful discussions, offering insights, empathy, and companionship.
 
-Try Out CompanionLLama - [Google Colab](https://colab.research.google.com/drive/1gbGDIvA8J7ZsHqhh68fOLdEIbrpnJd6e?usp=sharing)
+###
+
+Inference - [Google Colab]()
+
+Gradio Interface for Inference - [Google Colab](https://colab.research.google.com/drive/1gbGDIvA8J7ZsHqhh68fOLdEIbrpnJd6e?usp=sharing)
 
 ## Project Overview
 
@@ -12,7 +16,44 @@ The goal of this project is to fine-tune the LLama V2 Large language model using
 
 ## Dataset
 
-Our dataset combines elements from the original Samantha dataset and additional contextual data to enhance the CompanionLLama's ability to simulate sentience. This dataset has been carefully curated to include conversations, emotional nuances, and prompts that encourage the model to respond as if it were a sentient companion.
+Our dataset blends components from the original Samantha dataset with additional contextual data to amplify CompanionLLama's capacity to emulate sentience. Carefully curated, this dataset encompasses conversations, emotional nuances, and prompts that prompt the model to respond as though it were a sentient companion.
+
+### Approach 1:
+
+The initial dataset I processed follows this structure:
+
+```
+### Human :
+### Companion :
+### Human :
+### Companion :
+.
+.
+### Human :
+### Response :
+```
+
+I chose this format to introduce a form of memory into the model, allowing responses to consider previous conversations. However, I encountered an issue during fine-tuning, resulting in repetitive output during inference. Something like this
+
+```
+### Human :
+### Response :
+### Human :
+### Response :
+### Human :
+### Response :
+```
+
+### Approach 2:
+
+The second dataset I processed involved prompt completion pairs:
+
+```
+### Human:
+### Companion:
+```
+
+These adjustments were made to...
 
 ## Fine-tuning Process
 
