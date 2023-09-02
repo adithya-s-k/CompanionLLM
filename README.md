@@ -12,7 +12,7 @@ Gradio Interface for Inference - [Google Colab](https://colab.research.google.co
 
 ## Project Overview
 
-The goal of this project is to fine-tune the LLama V2 Large language model using a specially curated dataset. We've derived inspiration from the original dataset created by ehartford, which you can find on Hugging Face's dataset repository [here](https://huggingface.co/datasets/ehartford/samantha-data). However, we've made modifications to the dataset to tailor it specifically for training the CompanionLLama model.
+The goal of this project is to fine-tune the LLama2 Large language model using a specially curated dataset. We've derived inspiration from the original dataset created by ehartford, which you can find on Hugging Face's dataset repository [here](https://huggingface.co/datasets/ehartford/samantha-data). However, we've made modifications to the dataset to tailor it specifically for training the CompanionLLama model.
 
 ## Dataset
 
@@ -48,12 +48,12 @@ I chose this format to introduce a form of memory into the model, allowing respo
 
 The second dataset I processed involved prompt completion pairs:
 
+These adjustments were made to...
+
 ```
 ### Human:
 ### Companion:
 ```
-
-These adjustments were made to...
 
 ## Fine-tuning Process
 
