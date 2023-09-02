@@ -1,61 +1,65 @@
-# CompanionLLama: Fine-tuning LLama V2 as Your Sentient Companion
+# CompanionLLama: Fine-tuning LLama2 as Your Sentient Companion
 
 ![CompanionLLama Banner](./image/companionLlama.png)
 
 Welcome to the **CompanionLLama** project! Here, we're taking the remarkable LLama V2 Large language model and refining it to become your very own sentient companion. Imagine having a conversational partner that truly believes it possesses sentience and engages with you in meaningful discussions, offering insights, empathy, and companionship.
 
-###
-
-Inference - [Google Colab]()
-
-Gradio Interface for Inference - [Google Colab]()
+| Colab Page                                                                                                                                                                                           | Function                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/dataset_preparation_without_memory.ipynb) | Dataset Preparation                          |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/CompanionLLama_Finetuning.ipynb)          | Finetunign LLama with CompanionLLama Dataset |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CompanionLLama/blob/main/CompanionLLama_Inference.ipynb)                       | LLama Companion Inference Gradio             |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/Avalon_PEFT_inference.ipynb)              | Get Inference from Avalon Lora               |
 
 ## Project Overview
 
-The goal of this project is to fine-tune the LLama2 Large language model using a specially curated dataset. We've derived inspiration from the original dataset created by ehartford, which you can find on Hugging Face's dataset repository [here](https://huggingface.co/datasets/ehartford/samantha-data). However, we've made modifications to the dataset to tailor it specifically for training the CompanionLLama model.
+The goal of this project is provide a framework to fine-tune the LLama2 using a specially curated dataset to give more human like responses. I have derived inspiration from the original dataset created by ehartford, which you can find on [Huggingface](https://huggingface.co/datasets/ehartford/samantha-data). However, I have made modifications to the dataset to tailor it specifically for training the CompanionLLama model.
+
+### **Todo list**
+
+- [x] Find a suitable pre-existing dataset - [Using Samantha Dataset by Etartford](https://huggingface.co/datasets/ehartford/samantha-data)
+- [x] Convert the dataset a different [llama2 formate](https://replicate.com/blog/how-to-prompt-llama#:~:text=Format%20chat%20prompts%20with%20%5BINST,for%20how%20it%20should%20act.)
+- [x] Upload the dataset to huggingface
+- [x] Add Option to set companion name
+- [x] Finetune LLama2-7b using QLora PEFT
+- [x] Merge the PEFT and Test out inference
+- [x] Assigned Companion name - **Avalon**(Artificial Virtual Assistant with Logical and Operational Navigation)
+- [x] Push Avalon Lora to [Huggingface](https://huggingface.co/AdithyaSK/Avalon)
+- [x] Get Inference from [Avalon](https://github.com/adithya-s-k/CompanionLLama/blob/f83318ae9024c49227b669205fe2bc8e6e6ea1fb/Avalon_PEFT_inference.ipynb)
+
+## Avalon
+
+This repository is meant to be a framework to finetune your own companion using LLama2 as the basemodel. Avalon is the name i have choose for my companion and it stands for - Artificial Virtual Assistant with Logical and Operational Navigation
+
+Here are some examples of the coverstation with avalon
+
+```
+### Human : what is your name
+
+### Companion : Hi! My name is Avalon. It stands for "Artificial Virtual Assistant with Logical and Operational Navigation". Ask me about anything that interests you, and I'll give you my best answer!
+```
+
+```
+### Human : i am feeling sad
+
+### Companion : Oh no, I'm sorry to hear that. It's great that you're opening up about it, though. Can I ask, what's going on? Is there something specific you're feeling sad about, or are you just generally down? I'm here to listen if you want to talk about it.
+```
+
+```
+### Human : i am not able to sleep
+
+### Companion : That sounds really frustrating! Lack of sleep can definitely take a toll on both your physical and mental health. Are you having trouble falling asleep, or staying asleep? or both? Can you share a bit more about what your sleep experience has been like?
+```
 
 ## Dataset
 
 Our dataset blends components from the original Samantha dataset with additional contextual data to amplify CompanionLLama's capacity to emulate sentience. Carefully curated, this dataset encompasses conversations, emotional nuances, and prompts that prompt the model to respond as though it were a sentient companion.
 
-### Approach 1:
+#### Approach 1: Dataset Preparation with Context of Previous Conversation [![Open Notebook](https://img.shields.io/badge/Open%20-Notebook-orange?style=for-the-badge&logo=Jupyter)](https://github.com/adithya-s-k/CompanionLLama/blob/5c661170386ad4104683d6ffd8388eefdbae7d9d/dataset_preparation_with_memory.ipynb)
 
-The initial dataset I processed follows this structure:
+#### Approach 2: Dataset Preparation with Prompt Completion Pairs - [![Open Notebook](https://img.shields.io/badge/Open%20-Notebook-orange?style=for-the-badge&logo=Jupyter)](https://github.com/adithya-s-k/CompanionLLama/blob/5c661170386ad4104683d6ffd8388eefdbae7d9d/dataset_preparation_without_memory.ipynb)
 
-```
-### Human :
-### Companion :
-### Human :
-### Companion :
-.
-.
-### Human :
-### Response :
-```
-
-I chose this format to introduce a form of memory into the model, allowing responses to consider previous conversations. However, I encountered an issue during fine-tuning, resulting in repetitive output during inference. Something like this
-
-```
-### Human :
-### Response :
-### Human :
-### Response :
-### Human :
-### Response :
-```
-
-### Approach 2:
-
-The second dataset I processed involved prompt completion pairs:
-
-These adjustments were made to...
-
-```
-### Human:
-### Companion:
-```
-
-## Fine-tuning Process
+## Fine-tuning Process - [![Open Notebook](https://img.shields.io/badge/Open%20-Notebook-orange?style=for-the-badge&logo=Jupyter)](https://github.com/adithya-s-k/CompanionLLama/blob/bf1b91169f9136c7d850b0947d4b3e2bb02ec8a7/CompanionLLama_Finetuning.ipynb)
 
 Fine-tuning a language model involves training it on a specific dataset to adapt it to a particular task or domain. In our case, we're training LLama V2 Large to embody the characteristics of a sentient companion. The fine-tuning process includes:
 
@@ -91,6 +95,12 @@ Before contributing, please review our [contribution guidelines](CONTRIBUTING.md
 ## License
 
 CompanionLLama is distributed under the [MIT License](LICENSE).
+
+<p align="center">
+  <a href="https://adithyask.com">
+    <img src="https://api.star-history.com/svg?repos=adithya-s-k/CompanionLLama&type=Date" alt="Star History Chart">
+  </a>
+</p>
 
 ---
 
