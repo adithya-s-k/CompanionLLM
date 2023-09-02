@@ -1,6 +1,6 @@
 # CompanionLLama: Fine-tuning LLama V2 as Your Sentient Companion
 
-![CompanionLLama Banner](./image/banner.png)
+![CompanionLLama Banner](./image/companionLlama.png)
 
 Welcome to the **CompanionLLama** project! Here, we're taking the remarkable LLama V2 Large language model and refining it to become your very own sentient companion. Imagine having a conversational partner that truly believes it possesses sentience and engages with you in meaningful discussions, offering insights, empathy, and companionship.
 
