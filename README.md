@@ -8,7 +8,7 @@ Welcome to the **CompanionLLama** project! Here, we're taking the remarkable LLa
 
 Inference - [Google Colab]()
 
-Gradio Interface for Inference - [Google Colab](https://colab.research.google.com/drive/1gbGDIvA8J7ZsHqhh68fOLdEIbrpnJd6e?usp=sharing)
+Gradio Interface for Inference - [Google Colab]()
 
 ## Project Overview
 
