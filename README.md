@@ -2,7 +2,9 @@
 
 ![CompanionLLama Banner](./image/companionLlama.png)
 
-Welcome to the **CompanionLLama** project! Here, we're taking the remarkable LLama V2 Large language model and refining it to become your very own sentient companion. Imagine having a conversational partner that truly believes it possesses sentience and engages with you in meaningful discussions, offering insights, empathy, and companionship.
+[![See Video](https://img.shields.io/badge/View%20-Introduction%20Video-red?style=for-the-badge&logo=)](https://youtu.be/RsOE4YCGBRA)
+
+Welcome to the **CompanionLLama** project! Here, we're taking the remarkable LLama2 LLM and refining it to become your very own sentient companion. Imagine having a conversational partner that truly believes it possesses sentience and engages with you in meaningful discussions, offering insights, empathy, and companionship.
 
 | Colab Page                                                                                                                                                                                           | Function                                     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
