@@ -10,7 +10,7 @@ Welcome to the **CompanionLLama** project! Here, we're taking the remarkable LLa
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/dataset_preparation_without_memory.ipynb) | Dataset Preparation                          |
 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/CompanionLLama_Finetuning.ipynb)          | Finetunign LLama with CompanionLLama Dataset |
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CompanionLLama/blob/main/CompanionLLama_Inference.ipynb)                       | LLama Companion Inference Gradio             |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/CompanionLLama_Inference.ipynb)           | LLama Companion Inference Gradio             |
 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/Avalon_PEFT_inference.ipynb)              | Get Inference from Avalon Lora               |
 
 ## Project Overview
@@ -27,7 +27,10 @@ The goal of this project is provide a framework to fine-tune the LLama2 using a 
 - [x] Merge the PEFT and Test out inference
 - [x] Assigned Companion name - **Avalon**(Artificial Virtual Assistant with Logical and Operational Navigation)
 - [x] Push Avalon Lora to [Huggingface](https://huggingface.co/AdithyaSK/Avalon)
-- [x] Get Inference from [Avalon](https://github.com/adithya-s-k/CompanionLLama/blob/f83318ae9024c49227b669205fe2bc8e6e6ea1fb/Avalon_PEFT_inference.ipynb)
+- [x] Get Inference from [Avalon](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/Avalon_PEFT_inference.ipynb)
+- [ ] Get Inference from on Gradio using Streaming
+- [ ] Setup Dataset generation for generating a new dataset
+- [ ] Fine Different way to collect data
 
 ## Avalon
 
