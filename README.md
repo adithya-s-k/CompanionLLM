@@ -8,6 +8,7 @@ Welcome to the **CompanionLLama** project! Here, we're taking the remarkable LLa
 
 | Colab Page                                                                                                                                                                                           | Function                                     |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| Coming Soon                                                                                                                                                                                          | Dataset Generation                           |
 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/dataset_preparation_without_memory.ipynb) | Dataset Preparation                          |
 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/CompanionLLama_Finetuning.ipynb)          | Finetunign LLama with CompanionLLama Dataset |
 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/CompanionLLama_Inference.ipynb)           | LLama Companion Inference Gradio             |
@@ -28,9 +29,8 @@ The goal of this project is provide a framework to fine-tune the LLama2 using a 
 - [x] Assigned Companion name - **Avalon**(Artificial Virtual Assistant with Logical and Operational Navigation)
 - [x] Push Avalon Lora to [Huggingface](https://huggingface.co/AdithyaSK/Avalon)
 - [x] Get Inference from [Avalon](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/Avalon_PEFT_inference.ipynb)
-- [ ] Get Inference from on Gradio using Streaming
+- [x] Get Inference from on Gradio using Streaming
 - [ ] Setup Dataset generation for generating a new dataset
-- [ ] Fine Different way to collect data
 
 ## Avalon
 
