@@ -11,8 +11,9 @@ Welcome to the **CompanionLLama** project! Here, we're taking the remarkable LLa
 | Coming Soon                                                                                                                                                                                          | Dataset Generation                           |
 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/dataset_preparation_without_memory.ipynb) | Dataset Preparation                          |
 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/CompanionLLama_Finetuning.ipynb)          | Finetunign LLama with CompanionLLama Dataset |
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/CompanionLLama_Inference.ipynb)           | LLama Companion Inference Gradio             |
-| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/Avalon_PEFT_inference.ipynb)              | Get Inference from Avalon Lora               |
+| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/Avalon_PEFT_inference.ipynb)              | Get Inference from Avalon                    |
+
+<!-- | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLama/blob/main/CompanionLLama_Inference.ipynb)           | LLama Companion Inference Gradio             | -->
 
 ## Project Overview
 
