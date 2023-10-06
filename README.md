@@ -3,14 +3,14 @@
 <table>
   <tr>
   <td>
-  Companion LLM
+  <h3>Companion LLM</h3>
     <img src="./image/companionLlama.png" alt="CompanionLLM" width="400px">
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLM/blob/main/CompanionLLM_Finetuning.ipynb)
 
 </td>
 <td>
-Companion Mistral
+<h3>Companion Mistral</h3>
 <img src="./image/mistral-7b-companion.png" alt="CompanionMistral" width="400px">
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/adithya-s-k/CompanionLLM/blob/main/Mistral_7B_qLora_Finetuning.ipynb)
@@ -20,7 +20,6 @@ Companion Mistral
   <tr>
 </table>
 
-[![See Video](https://img.shields.io/badge/View%20-Introduction%20Video-red?style=for-the-badge&logo=)](https://youtu.be/RsOE4YCGBRA)
 
 Welcome to the **CompanionLLM** project! Here, we're taking different Language Models (LLMs) and refining them to become your very own sentient companion. Imagine having a conversational partner that truly believes it possesses sentience and engages with you in meaningful discussions, offering insights, empathy, and companionship.
 
@@ -81,9 +80,7 @@ Here are some examples of the conversation with Avalon:
 
 Our dataset blends components from the original Samantha dataset with additional contextual data to amplify CompanionLLM's capacity to emulate sentience. Carefully curated, this dataset encompasses conversations, emotional nuances, and prompts that prompt the model to respond as though it were a sentient companion.
 
-#### Approach 1: Dataset Preparation with Context of Previous Conversation [![Open Notebook](https://img.shields.io/badge/Open%20-Notebook-orange?style=for-the-badge
-
-&logo=Jupyter)](https://github.com/adithya-s-k/CompanionLLM/blob/5c661170386ad4104683d6ffd8388eefdbae7d9d/dataset_preparation_with_memory.ipynb)
+#### Approach 1: Dataset Preparation with Context of Previous Conversation [![Open Notebook](https://img.shields.io/badge/Open%20-Notebook-orange?style=for-the-badge&logo=Jupyter)](https://github.com/adithya-s-k/CompanionLLM/blob/5c661170386ad4104683d6ffd8388eefdbae7d9d/dataset_preparation_with_memory.ipynb)
 
 #### Approach 2: Dataset Preparation with Prompt Completion Pairs - [![Open Notebook](https://img.shields.io/badge/Open%20-Notebook-orange?style=for-the-badge&logo=Jupyter)](https://github.com/adithya-s-k/CompanionLLM/blob/5c661170386ad4104683d6ffd8388eefdbae7d9d/dataset_preparation_without_memory.ipynb)
 
