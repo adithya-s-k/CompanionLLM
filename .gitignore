@@ -1,3 +1,6 @@
 /venv
 .gitignore
 /ignore
+demo.ipynb
+data/hello.py
+/ignore
